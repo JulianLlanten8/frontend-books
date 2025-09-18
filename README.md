@@ -10,7 +10,7 @@
 
 1. Clona el repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/JulianLlanten8/frontend-books.git
    ```
 2. Navega al directorio del proyecto:
    ```bash
