@@ -4,7 +4,7 @@ import StarRating from "./StarRating.vue";
 
 import type { Book } from "@/types/book.interface";
 
-const props = defineProps<Book>();
+defineProps<Book>();
 </script>
 <template>
   <div

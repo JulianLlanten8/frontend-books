@@ -19,7 +19,9 @@ const { books, loading, error, fetchBooks } = useBooks();
         <span class="font-medium text-gray-700">Refrescar</span>
       </button>
     </div>
-    <div v-if="loading" class="text-gray-500 text-center py-4">Cargando...</div>
+    <div v-if="loading" class="text-gray-500 text-center py-4">Cargando...
+      <RefreshCw class="animate-spin inline-block" />
+    </div>
     <div v-if="error" class="text-red-500 text-center py-4">{{ error }}</div>
     <div class="flex flex-col gap-3">
       <BookItem v-for="book in books" :key="book.id" v-bind="book" />
